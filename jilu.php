@@ -1,10 +1,11 @@
-﻿
+
 <html>
 <form  action="delete.php" method="GET">
 <body background="http://image.tianjimedia.com/uploadImages/2013/256/Z30NC8IU5KAN.jpg" >
 <h1 style="font-size:30px;font-family:youyuan">&nbsp;聊天记录※</h1>
 <hr width=100% size=3 color=LightGrey style="border:3 double pink"></hr>
 <?php
+	//查看聊天记录	
 	$servername="localhost";
 	$username="root";
 	$password="";
