@@ -1,5 +1,6 @@
 <html>
 <?php
+	//注销处理	
 	setcookie("name","",time()-3600*24*365);
 	setcookie("password","",time()-3600*24*365);
 	setcookie("del","",time()-3600*24*365);
