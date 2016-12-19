@@ -1,0 +1,19 @@
+﻿<html>
+<form action="fayan.php" method="POST">
+<body background="http://image.tianjimedia.com/uploadImages/2013/256/Z30NC8IU5KAN.jpg" >
+<a href='jilu.php'>查看聊天记录</a>&nbsp;&nbsp;
+<a href='zhuxiao.php'>注销</a></br>
+<div>
+<h1 style="font-size:60px;font-family:Microsoft YaHei"><b>&nbsp;&nbsp;&nbsp;&nbsp;聊天室</b></h1>
+<p><textarea rows="15" cols="40" name="chatting">请输入内容※</textarea></p>
+<p><tr width="20%"><input type="submit" name="submit" value="快速发言"></tr></p>
+</div>   
+<hr> 
+当前时间：   
+<div id="time">    
+<script>    
+setInterval("document.getElementById('time').innerHTML=new Date().toLocaleString();",1000);  
+</script>    
+</div>    
+</body>
+</html>
