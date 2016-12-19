@@ -1,5 +1,6 @@
 <html>
 <?php
+	//删除记录处理		
 	$servername="localhost";
 	$username="root";
 	$password="";
