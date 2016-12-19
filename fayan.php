@@ -2,6 +2,7 @@
 <body background="http://image.tianjimedia.com/uploadImages/2013/256/Z30NC8IU5KAN.jpg" >
 <?php	
 	
+	//发言处理页面	
 	$id=$_COOKIE["name"];
 	$chat=$_POST['chatting'];
 	$servername="localhost";
