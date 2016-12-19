@@ -1,6 +1,7 @@
 ﻿<html>
 <?php
-	$id=$_POST['id_'];
+	//登录处理页面	
+	 $id=$_POST['id_'];
 	$pass=md5($_POST['password_']);
 	$servename = "localhost";
 	$username = "root";
