@@ -1,5 +1,6 @@
 
 <?php
+	//注册处理页面
 	$id=$_POST['id_'];
 	$pass=md5($_POST['password_']);
 	if(empty($id)||empty($pass))
